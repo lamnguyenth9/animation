@@ -1,4 +1,7 @@
 import 'package:animation/animation/add_to_cart_animation/shopping_cart_button.dart';
+import 'package:animation/animation/background_animation/background_animation.dart';
+import 'package:animation/animation/button_animation/button_animation.dart';
+import 'package:animation/animation/dowload_button_animation/dowload_button_animation.dart';
 import 'package:animation/animation/on_boarding/animated_onboarding.dart';
 import 'package:animation/animation/scroll_animation/scrollist_animation.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyAnimatedList(),
+      home: DowloadButtonAnimation(),
     );
   }
 }
